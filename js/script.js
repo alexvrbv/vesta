@@ -400,7 +400,6 @@ function productQuantityValueChangeInit() {
 
 //Contacts region offices init
 function regionOfficesInit(region) {
-    console.log(region);
     $.each(contacts, function (index, item) {
         if (item.region == region) {
             htmlOffices = '<span class="js-toggle-dropdown">'+item.offices[0].address+'</span>';
