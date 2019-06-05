@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vesta корзина</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Vesta" />
+		<meta name="description" content="Vesta">
+		<meta name="keywords" content="Vesta" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="css/slick.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery-filestyle.min.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery.qtip.min.css" rel="stylesheet" type="text/css">
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+		<link href="styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+        <div class="wrapper wrapper--header header">
+            <nav class="navbar navbar-expand-md navbar-dark width-1330">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png">
+                </a>
+                <div class="navbar-region js-dropdown">
+                    <span class="js-toggle-dropdown">Санкт-Петербург</span>
+                    <ul class="navbar-region__list js-dropdown-list" style="display: none;">
+                        <li class="navbar-region__item">
+                            <span class="navbar-region__item-text js-dropdown-item navbar-region__item-text--active" data-active="navbar-region__item-text--active">
+                                Санкт-Петербург
+                            </span>
+                        </li>
+                        <li class="navbar-region__item">
+                            <span class="navbar-region__item-text js-dropdown-item" data-active="navbar-region__item-text--active">
+                                Москва
+                            </span>
+                        </li>
+					</ul>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+                <div class="collapse navbar-collapse justify-content-right" id="navbarSupportedContent">
+                    <div class="mobile-menu-close" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        
+                    </div>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalog.html">Каталог</a>
+                        </li>					
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Услуги</a>
+                        </li>			
+                        <li class="nav-item">
+                            <a class="nav-link" href="company.html">О компании</a>
+                        </li>			
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Пресс-центр</a>
+                        </li>						
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>	
+                    </ul>
+                </div>
+                <div class="navbar-auth">
+                    <span>Вход / Регистрация</span>
+                </div>
+                <div class="navbar-phone">
+                    <a class="navbar-phone__link" href="tel:+7(921)986-88-68">+7 (921) 986-88-68</a>
+                    <div class="navbar-phone__note">
+                        <span>обратный звонок</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="wrapper wrapper--page-top page-top">
+            <div class="container-fluid no-padding width-1330">
+                <div class="row no-gutters row--page-top">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 col--catalog-open-button">
+                        <div class="catalog-open-button ready">
+                            <span>Каталог товаров</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-9 col--search-and-cart">
+                        <div class="search-form">
+                            <input class="search-form__input" type="text" placeholder="Поиск по товарам и услугам">
+                            <button class="search-form__submit" type="submit"></button>
+                        </div>
+                        <div class="cart-link">
+                            <span>Корзина</span>
+                        </div>
+                    </div>
+                    <div class="catalog-dropdown-menu">
+                        <div class="catalog-dropdown-menu__wrapper">
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--1">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Первичные средства пожаротушения</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--2">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Пожаро-охранная сигнализация и оповещение</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--3">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Системы автоматического пожаротушения</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item catalog-dropdown-menu-category__list-item--more">
+                                            <a href="catalog.html">еще 5</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--4">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Система дымоудаления</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item catalog-dropdown-menu-category__list-item--more">
+                                            <a href="catalog.html">смотреть все</a>
+                                        </li>                                    
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--5">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Огнезащитные составы</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item catalog-dropdown-menu-category__list-item--more">
+                                            <a href="catalog.html">смотреть все</a>
+                                        </li>                                    
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--6">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Противопожарные двери, люки, комплектующие</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--7">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Листовой и иной металлопрокат</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--8">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Кабельная продукция</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--9">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Монтажная продукция</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>
+		<div class="wrapper wrapper--breadcrumbs breadcrumbs">
+			<div class="container-fluid no-padding width-1330">
+				<div class="row no-gutters">
+                    <div class="col-12">
+                        <div class="breadcrumbs__list breadcrumbs-list">
+                            <ul>
+                                <li class="breadcrumbs-list__item">
+                                    <a href="index.html">Главная</a>
+                                </li>
+                                <li class="breadcrumbs-list__item">
+                                    <span>Личный кабинет</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper--account account">
+            <div class="container-fluid no-padding width-1330">
+                <div class="row no-gutters">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col--left-column-account">
+                        <div class="account__title">
+                            <h2>Корзина</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-9 col-lg-6 col-xl-6 col--center-account">
+                        <div class="account__controls account-controls">
+                            <div class="account-controls__tabs">
+                                <a href="cart-individual.html" class="account-controls__tab">
+                                    <span>Физическое лицо</span>
+                                </a>
+                                <a href="cart.html" class="account-controls__tab active">
+                                    <span>Юридическое лицо</span>
+                                </a>
+                            </div>
+                            <div class="account-controls__selector-wrapper">
+                                <div class="account-controls__selector-title">
+                                    <span>Сортировать по:</span>
+                                </div>
+                                <div class="account-controls__selector">
+                                    <select>
+                                        <option>дате</option>
+                                        <option>цене</option>
+                                        <option>новизне</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col--right-column col--right-column-account">
+                        <div class="right-column right-column--account right-column--account-total-top">
+                            <div class="account__total-top account-total-top"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col--left-column col--left-column-account">
+                        <div class="left-column left-column--account">
+                            <div class="left-column__menu left-column-menu left-column-menu--account">
+                                <ul>
+                                    <li>
+                                        <a href="profile.html">Профиль</a>
+                                    </li>
+                                    <li>
+                                        <a class="active"  href="cart.html">Корзина</a>
+                                    </li>
+                                    <li>
+                                        <a href="orders.html">Заказы</a>
+                                    </li>
+                                    <li>
+                                        <a href="documents.html">Отчетные документы</a>
+                                    </li>
+                                    <li>
+                                        <a href="conditions.html">Условия оказания услуг</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-9 col-lg-6 col-xl-6 col--account col--center-account">
+                        <div class="account__cart account-cart">
+                            <table class="content-table">
+                                <tr>
+                                    <th>
+                                        <div class="account-cart__name">
+                                            <span>Товар</span>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="account-cart__price">
+                                            <span>Цена</span>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="account-cart__quantity">
+                                            <span>Количество</span>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="account-cart__sum">
+                                            <span>Сумма</span>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="account-cart__weight">
+                                            <span>Вес</span>
+                                        </div>
+                                    </th>
+                                    <th>
+
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="account-cart__name">
+                                            <span>Система дымоудаления</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="account-cart__price">
+                                            <span>832 руб</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="account-cart__quantity">
+                                            <div class="quantity-minus account-cart__quantity-minus">
+                                                <span>-</span>
+                                            </div>
+                                            <div class="account-cart__quantity-value">
+                                                <input type="text" value="1"/>
+                                            </div>
+                                            <div class="quantity-plus account-cart__quantity-plus">
+                                                <span>+</span>
+                                            </div>
+                                        </div>                                        
+                                    </td>
+                                    <td>
+                                        <div class="account-cart__sum">
+                                            <span>832 руб</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="account-cart__weight">
+                                            <span>300 г</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="account-cart__delete"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="account-cart__name">
+                                            <span>Огнетушитель порошковый</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="account-cart__price">
+                                            <span>584 руб</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="account-cart__quantity">
+                                            <div class="quantity-minus account-cart__quantity-minus">
+                                                <span>-</span>
+                                            </div>
+                                            <div class="account-cart__quantity-value">
+                                                <input type="text" value="1"/>
+                                            </div>
+                                            <div class="quantity-plus account-cart__quantity-plus">
+                                                <span>+</span>
+                                            </div>
+                                        </div>                                        
+                                    </td>
+                                    <td>
+                                        <div class="account-cart__sum">
+                                            <span>584 руб</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="account-cart__weight">
+                                            <span>800 г</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="account-cart__delete"></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="account-cart__buttons">
+                                <div class="btn account-cart__btn">
+                                    <span>Очистить корзину</span>
+                                </div>
+                                <div class="btn btn--orange account-cart__btn">
+                                    <span>Загрузить счет в pdf</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col--right-column col--right-column-account">
+                        <div class="right-column right-column--account">
+                            <div class="account__total account-total">
+                                <div class="account-total__title">
+                                    <span>Итого: 1416 руб</span>
+                                </div>
+                                <div class="account-total__delivery account-total-delivery">
+                                    <div class="account-total-delivery__title">
+                                        <span>Способ получения</span>
+                                    </div>
+                                    <div class="account-total-delivery__selector">
+                                        <div class="form-field">
+                                            <label class="light"><input name="delivery" type="radio" value="delivery"><span>Доставка</span></label>
+                                        </div>
+                                        <div class="form-field">
+                                            <label class="light"><input name="delivery" type="radio" value="pickup" checked><span>Самовывоз</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="account-total-delivery__addresses account-total-delivery-addresses">
+                                        <div class="account-total-delivery-addresses__title">
+                                            <span>Адреса самовывоза</span>
+                                        </div>
+                                        <div class="account-total-delivery-addresses__items">
+                                            <div class="account-total-delivery-addresses__item">
+                                                <span>ул.Белы Куна, д.30, лит.А (б/ц "Софийская площадь")</span>
+                                            </div>
+                                            <div class="account-total-delivery-addresses__item">
+                                                <span>ул.Белы Куна, д.30, лит.А (б/ц "Софийская площадь")</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+            </div>     
+        </div>
+		<div class="wrapper wrapper--footer footer">
+			<div class="container-fluid no-padding width-1330">
+				<div class="row no-gutters">
+                    <div class="col-12 col--footer">
+                        <div class="footer__logo">
+                            <img src="img/logo--gark.png">
+                        </div>
+                        <div class="footer__socials">
+                            <a href="#">
+                                <img src="img/vkontakte.svg">
+                            </a>
+                            <a href="#">
+                                <img src="img/facebook.svg">
+                            </a>
+                            <a href="#">
+                                <img src="img/instagram.svg">
+                            </a>
+                        </div>
+                        <div class="footer__copyright">
+                            <span>ООО «Веста» 2019 © Все права защищены</span>
+                        </div>
+                    </div>                                                          
+                </div>
+            </div>
+        </div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.matchHeight-min.js"></script>
+		<script src="js/jquery.qtip.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.cutescroll.min.js"></script>
+		<script src="js/input.js"></script>
+		<script src="js/script.js"></script>
+    </body>
+</html>

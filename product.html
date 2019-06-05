@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vesta товар</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Vesta" />
+		<meta name="description" content="Vesta">
+		<meta name="keywords" content="Vesta" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="css/slick.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery-filestyle.min.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery.qtip.min.css" rel="stylesheet" type="text/css">
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+		<link href="styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+        <div class="wrapper wrapper--header header">
+            <nav class="navbar navbar-expand-md navbar-dark width-1330">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png">
+                </a>
+                <div class="navbar-region js-dropdown">
+                    <span class="js-toggle-dropdown">Санкт-Петербург</span>
+                    <ul class="navbar-region__list js-dropdown-list" style="display: none;">
+                        <li class="navbar-region__item">
+                            <span class="navbar-region__item-text js-dropdown-item navbar-region__item-text--active" data-active="navbar-region__item-text--active">
+                                Санкт-Петербург
+                            </span>
+                        </li>
+                        <li class="navbar-region__item">
+                            <span class="navbar-region__item-text js-dropdown-item" data-active="navbar-region__item-text--active">
+                                Москва
+                            </span>
+                        </li>
+					</ul>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+                <div class="collapse navbar-collapse justify-content-right" id="navbarSupportedContent">
+                    <div class="mobile-menu-close" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        
+                    </div>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalog.html">Каталог</a>
+                        </li>					
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Услуги</a>
+                        </li>			
+                        <li class="nav-item">
+                            <a class="nav-link" href="company.html">О компании</a>
+                        </li>			
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Пресс-центр</a>
+                        </li>						
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>	
+                    </ul>
+                </div>
+                <div class="navbar-auth">
+                    <span>Вход / Регистрация</span>
+                </div>
+                <div class="navbar-phone">
+                    <a class="navbar-phone__link" href="tel:+7(921)986-88-68">+7 (921) 986-88-68</a>
+                    <div class="navbar-phone__note">
+                        <span>обратный звонок</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="wrapper wrapper--page-top page-top">
+            <div class="container-fluid no-padding width-1330">
+                <div class="row no-gutters row--page-top">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 col--catalog-open-button">
+                        <div class="catalog-open-button ready">
+                            <span>Каталог товаров</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-9 col--search-and-cart">
+                        <div class="search-form">
+                            <input class="search-form__input" type="text" placeholder="Поиск по товарам и услугам">
+                            <button class="search-form__submit" type="submit"></button>
+                        </div>
+                        <div class="cart-link">
+                            <span>Корзина</span>
+                        </div>
+                    </div>
+                    <div class="catalog-dropdown-menu">
+                        <div class="catalog-dropdown-menu__wrapper">
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--1">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Первичные средства пожаротушения</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--2">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Пожаро-охранная сигнализация и оповещение</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--3">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Системы автоматического пожаротушения</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item catalog-dropdown-menu-category__list-item--more">
+                                            <a href="catalog.html">еще 5</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--4">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Система дымоудаления</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item catalog-dropdown-menu-category__list-item--more">
+                                            <a href="catalog.html">смотреть все</a>
+                                        </li>                                    
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--5">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Огнезащитные составы</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item catalog-dropdown-menu-category__list-item--more">
+                                            <a href="catalog.html">смотреть все</a>
+                                        </li>                                    
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--6">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Противопожарные двери, люки, комплектующие</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--7">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Листовой и иной металлопрокат</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--8">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Кабельная продукция</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="catalog-dropdown-menu__category catalog-dropdown-menu-category catalog-dropdown-menu-category--9">
+                                <div class="catalog-dropdown-menu-category__title">
+                                    <a href="catalog.html">
+                                        <div class="catalog-dropdown-menu-category__img"></div>
+                                        <span>Монтажная продукция</span>
+                                    </a>
+                                </div>
+                                <div class="catalog-dropdown-menu-category__list">
+                                    <ul>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                        <li class="catalog-dropdown-menu-category__list-item">
+                                            <a href="catalog.html">Позиция</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>
+		<div class="wrapper wrapper--breadcrumbs breadcrumbs">
+			<div class="container-fluid no-padding width-1330">
+				<div class="row no-gutters">
+                    <div class="col-12">
+                        <div class="breadcrumbs__list breadcrumbs-list">
+                            <ul>
+                                <li class="breadcrumbs-list__item">
+                                    <a href="index.html">Главная</a>
+                                </li>
+                                <li class="breadcrumbs-list__item">
+                                    <a href="catalog.html">Каталог</a>
+                                </li>
+                                <li class="breadcrumbs-list__item">
+                                    <span>Карточка товара</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper--product-page product-page">
+			<div class="container-fluid no-padding width-1330">
+				<div class="row no-gutters">
+                    <div class="col-12 col--product-page">
+                        <div class="product-page__img-wrapper">
+                            <div class="product-page__img">
+                                <img src="img/product__main.jpg">
+                            </div>
+                        </div>
+                        <div class="product-page__content-wrapper">
+                            <div class="product-page__content">
+                                <div class="product-page__title">
+                                    <span>Огнетушитель порошковый TAMREX Premium</span>
+                                </div>
+                                <div class="product-page__sku">
+                                    <span>Артикул:  <strong>U050P</strong></span>
+                                </div>
+                                <div  class="product-page__quantity-availability">
+                                    <div class="product-page__quantity">
+                                        <div class="quantity-minus product-page__quantity-minus">
+                                            <span>-</span>
+                                        </div>
+                                        <div class="product-page__quantity-value">
+                                            <input type="text" value="1"/>
+                                        </div>
+                                        <div class="quantity-plus product-page__quantity-plus">
+                                            <span>+</span>
+                                        </div>
+                                    </div>                     
+                                    <div class="product-page__availability">
+                                        <div class="product-page__availability-indicator"></div>
+                                        <div class="product-page__availability-text">
+                                            <span>Много</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-page__price">
+                                    <span>2500 руб</span>
+                                </div>
+                                <div class="btn product-page__one-click-buy">
+                                    <span>Купить в 1 клик</span>
+                                </div>
+                                <div class="btn btn--orange product-page__add-to-cart">
+                                    <span>В корзину</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-page__offer-wrapper">
+                            <div class="product-page__offer">
+                                <div class="product-page__offer-title">
+                                    <span>Можем предложить</span>
+                                </div>
+                                <div class="product-page__offer-img">
+                                    <img src="img/product__main--additional.jpg">
+                                </div>
+                                <div class="product-page__offer-desc">
+                                    <span>Заправка огнетушителя</span>
+                                </div>
+                                <div class="product-page__offer-price">
+                                    <div class="product-page__offer-price-digit">
+                                        <span>1200</span>
+                                    </div>
+                                    <div class="product-page__offer-price-currency">
+                                        <span>руб</span>
+                                    </div>
+                                </div>
+                                <div class="btn product-page__offer-btn">
+                                    <span>Заказать</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-page__tabs product-page-tabs">
+                            <nav>
+                                <div class="nav nav-tabs product-page-tabs__nav-tabs" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link product-page-tabs__nav-link active" id="nav-desc-tab" data-toggle="tab" href="#nav-desc" role="tab" aria-controls="nav-desc" aria-selected="true">Описание</a>
+                                    <a class="nav-item nav-link product-page-tabs__nav-link" id="nav-specs-tab" data-toggle="tab" href="#nav-specs" role="tab" aria-controls="nav-specs" aria-selected="false">Характеристики</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content product-page-tabs__tab-content" id="nav-tabContent">
+                                <div class="tab-pane product-page-tabs__tab-pane fade show active" id="nav-desc" role="tabpanel" aria-labelledby="nav-desc-tab">
+                                    <span>1 Вкладка: Огнетушители Tamrex – Лучшие огнетушители в Европе. Мы очень хотели бы, чтобы вам никогда не пришлось воспользоваться огнетушителем, но в случае возникновения пожара имеющееся у вас устройство должно сработать безукоризненно и спасти жизнь и имущество вас самих и ваших близких. Огнетушители Tamrex отвечают всем нормам ЕС, зачастую в несколько раз превосходя минимальные требования. На надежные в эксплуатации и долговечные огнетушители Tamrex мы предоставляем 5-летнюю гарантию.</span>
+                                </div>
+                                <div class="tab-pane product-page-tabs__tab-pane fade" id="nav-specs" role="tabpanel" aria-labelledby="nav-specs-tab">
+                                    <span>2 Вкладка: Огнетушители Tamrex – Лучшие огнетушители в Европе. Мы очень хотели бы, чтобы вам никогда не пришлось воспользоваться огнетушителем, но в случае возникновения пожара имеющееся у вас устройство должно сработать безукоризненно и спасти жизнь и имущество вас самих и ваших близких. Огнетушители Tamrex отвечают всем нормам ЕС, зачастую в несколько раз превосходя минимальные требования. На надежные в эксплуатации и долговечные огнетушители Tamrex мы предоставляем 5-летнюю гарантию.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+        <div class="wrapper wrapper--similar-products similar-products">
+			<div class="container-fluid no-padding width-1330">
+				<div class="row no-gutters">
+                    <div class="col-12">
+                        <div class="similar-products__title">
+                            <h2>Похожие товары</h2>
+                        </div>
+                        <div class="similar-products__slider similar-products-slider">
+                            <div class="similar-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--6.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Пожарно-охранная сигнализация</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="similar-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--7.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Огнезащитная краска для металлоконструкций</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="similar-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--8.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Вентилятор дымоудаления</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="similar-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--9.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Автомобильный огнетушитель</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="similar-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--10.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Шламовый насос Solidpump</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="similar-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--6.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Пожарно-охранная сигнализация</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper--related-products related-products">
+			<div class="container-fluid no-padding width-1330">
+				<div class="row no-gutters">
+                    <div class="col-12">
+                        <div class="related-products__title">
+                            <h2>С этим товаром также покупают</h2>
+                        </div>
+                        <div class="related-products__slider related-products-slider">
+                            <div class="related-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--6.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Пожарно-охранная сигнализация</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="related-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--7.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Огнезащитная краска для металлоконструкций</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="related-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--8.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Вентилятор дымоудаления</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="related-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--9.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Автомобильный огнетушитель</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="related-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--10.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Шламовый насос Solidpump</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="related-products-slider__slide">
+                                <div class="product">
+                                    <div class="product__buy">
+                                        <div class="btn">
+                                            <span>Купить в 1 клик</span>
+                                        </div>
+                                        <div class="product__buy-mini-cart"></div>
+                                    </div>                                          
+                                    <div class="product__img">
+                                        <img src="img/product--6.jpg">
+                                    </div>
+                                    <a class="product__title" href="product.html">
+                                        <span>Пожарно-охранная сигнализация</span>
+                                    </a>
+                                    <div class="product__price">
+                                        <div class="product__price-digit">
+                                            <span>1200</span>
+                                        </div>
+                                        <div class="product__price-currency">
+                                            <span>руб/шт</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="wrapper wrapper--footer footer">
+			<div class="container-fluid no-padding width-1330">
+				<div class="row no-gutters">
+                    <div class="col-12 col--footer">
+                        <div class="footer__logo">
+                            <img src="img/logo--gark.png">
+                        </div>
+                        <div class="footer__socials">
+                            <a href="#">
+                                <img src="img/vkontakte.svg">
+                            </a>
+                            <a href="#">
+                                <img src="img/facebook.svg">
+                            </a>
+                            <a href="#">
+                                <img src="img/instagram.svg">
+                            </a>
+                        </div>
+                        <div class="footer__copyright">
+                            <span>ООО «Веста» 2019 © Все права защищены</span>
+                        </div>
+                    </div>                                                          
+                </div>
+            </div>
+        </div>
+        <div class="white-popup mfp-hide popup--cart popup-cart" id="popup-cart">
+            <div class="popup-cart__header">
+                <span>Товар добавлен в корзину</span>
+            </div>
+            <div class="popup-cart__product-list">
+                <div class="popup-cart__product-wrapper">
+                    <div class="popup-cart__product">
+                        <div class="popup-cart__product-img">
+                            <img src="img/extinguisher--3.jpg">
+                        </div>
+                        <a href="product.html" class="popup-cart__product-title">
+                            <span>Огнетушитель порошковый TAMREX Premium</span>
+                        </a>
+                        <div class="popup-cart__product-sku">
+                            <span>Артикул:  U050P</span>
+                        </div>
+                        <div class="popup-cart__product-quantity">
+                            <div class="quantity-minus popup-cart__product-quantity-minus">
+                                <span>-</span>
+                            </div>
+                            <div class="popup-cart__product-quantity-value">
+                                <input type="text" value="1"/>
+                            </div>
+                            <div class="quantity-plus popup-cart__product-quantity-plus">
+                                <span>+</span>
+                            </div>
+                        </div>
+                        <div class="popup-cart__product-price">
+                            <span>2 500 руб</span>
+                        </div>
+                        <div class="popup-cart__product-delete"></div>
+                    </div>                    
+                </div>
+                <div class="popup-cart__product-wrapper">
+                    <div class="popup-cart__product">
+                        <div class="popup-cart__product-img">
+                            <img src="img/extinguisher--3.jpg">
+                        </div>
+                        <a href="product.html" class="popup-cart__product-title">
+                            <span>Огнетушитель порошковый TAMREX Premium</span>
+                        </a>
+                        <div class="popup-cart__product-sku">
+                            <span>Артикул:  U050P</span>
+                        </div>
+                        <div class="popup-cart__product-quantity">
+                            <div class="quantity-minus popup-cart__product-quantity-minus">
+                                <span>-</span>
+                            </div>
+                            <div class="popup-cart__product-quantity-value">
+                                <input type="text" value="1"/>
+                            </div>
+                            <div class="quantity-plus popup-cart__product-quantity-plus">
+                                <span>+</span>
+                            </div>
+                        </div>
+                        <div class="popup-cart__product-price">
+                            <span>2 500 руб</span>
+                        </div>
+                        <div class="popup-cart__product-delete"></div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="popup-cart__summary">
+                <div class="popup-cart__summary-products">
+                    <span>Товаров в корзине: 2</span>
+                </div>
+                <div class="popup-cart__summary-price">
+                    <div class="popup-cart__summary-price-text">
+                        <span>Итого:</span>
+                    </div>
+                    <div class="popup-cart__summary-price-value">
+                        <span>5000 руб</span>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-cart__buttons">
+                <div class="btn popup-cart__button">
+                    <span>Продолжить покупки</span>
+                </div>
+                <div class="btn btn--orange popup-cart__button">
+                    <span>Оформить заказ</span>
+                </div>
+            </div>
+        </div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.matchHeight-min.js"></script>
+		<script src="js/jquery.qtip.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.cutescroll.min.js"></script>
+		<script src="js/input.js"></script>
+		<script src="js/script.js"></script>
+    </body>
+</html>
