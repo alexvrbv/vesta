@@ -134,9 +134,15 @@ img {
 }
 h1 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 36px;
 	line-height: 1em;
 	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+h1.small {
+    font-size: 30px;
+	line-height: 1em;
 }
 h2 {
     font-weight: bold;
@@ -218,7 +224,7 @@ button {
 	font-size: 14px;
 	line-height: 1em;
 	color: rgba(46,46,46,0.8);
-	border: 1px solid rgba(46,46,46,0.3);
+	border: 1px solid #eeeeee;
 }
 .form-field input[type="checkbox"],
 .form-field input[type="radio"] {
@@ -1159,7 +1165,7 @@ table.content-table {
 	align-content: stretch;
 	color: #2E2E2E;
 	padding: 18px 50px 18px 23px;
-	border-bottom: 1px solid #CCCCCC;
+	border-bottom: 1px solid #eeeeee;
 	position: relative;
 }
 @media (max-width: 767px) {
@@ -1559,6 +1565,7 @@ home-slider__slide-btn {
 	min-height: 336px;
 	position: relative;
 	padding: 30px;
+	display: block;
 	background-color: #ffffff;
 	overflow: hidden;
 }
@@ -2621,7 +2628,7 @@ home-slider__slide-btn {
 }
 .column-news-list__item {
 	padding: 25px 46px;
-	border-top: 1px solid #CCCCCC;
+	border-top: 1px solid #eeeeee;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;

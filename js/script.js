@@ -362,7 +362,7 @@ function popupsInit() {
 //Company page title change
 function companyPageTitleChangeInit() {
     $('.left-column-menu--company a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        $('.company__title h2').text($(this).text());
+        $('.company__title h1').text($(this).text());
     });
 }
 
