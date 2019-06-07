@@ -357,6 +357,15 @@ function popupsInit() {
             type: 'inline'
         }
     });
+    $('.company-sertificates__inner').each(function() { // the containers for all your galleries
+        $(this).magnificPopup({
+            delegate: 'a', // the selector for gallery item
+            type: 'image',
+            gallery: {
+                enabled:true
+            }
+        });
+    });
 }
 
 //Company page title change
