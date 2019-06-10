@@ -3923,8 +3923,8 @@ footer-contacts__item:last-child {
 	}
 }
 .footer__socials img {
-	height: 10px;
-	width: auto;
+	width: 15px;
+	height: 14px;
 }
 .footer__copyright {
 	margin-top: 35px;
